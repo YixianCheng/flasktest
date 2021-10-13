@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+  <div class="jumbotron">
+    <h1>Add an owner</h1>
+    <p>Add a new owner with the form below.</p>
+    <form method="post">
+      {{form.hidden_tag()}}
+      <!-- 要和forms表里class里的变量名一致 -->
+      {{form.name.label}}{{form.name}}
+      <br>
+      {{form.puppy_id.label}}{{form.puppy_id}}
+      {{form.submit()}}
+    </form>
+
+  </div>
+{% endblock %}

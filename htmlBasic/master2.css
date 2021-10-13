@@ -1,0 +1,27 @@
+/* body{
+  background: url(photo.jfif);
+  background-repeat: no-repeat;
+}
+div{
+  background: grey;
+  border: orange 20px solid;
+}
+p{
+  color:yellow;
+}
+
+span{
+  background: red;
+  color:black;
+} */
+
+.firstDiv{
+  color: grey;
+}
+
+.SecondDiv{
+  background-color: #eab01c;
+}
+#singledout{
+  color:red;
+}

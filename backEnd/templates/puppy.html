@@ -1,0 +1,10 @@
+<!-- Puppy html -->
+{% extends "base.html" %}
+
+{% block main %}
+<!-- 首字母大写 -->
+<h1>{{name|capitalize}}</h1>
+<!-- 暂时没看出这两种的区别 -->
+<a href="{{url_for('static',filename='photo.jfif')}}">Here</a>
+<a href="../static/photo.jfif">Here</a>
+{% endblock %}
